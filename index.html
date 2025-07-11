@@ -1,16 +1,77 @@
-<!DOCTYPE html>
-<html>
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
-  Hello world
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">Sahasra's Portfolio</div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <div class="arrow">↓</div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Welcome to my portfolio! My name is Sahasra, and I am a rising junior interested in medicine and computer science. Whether I'm diving into a research project, coding an app, or helping out in my community, I enjoy learning new things and taking on challenges. Outside of academics, I've been playing violin for years and like to stay creative. I'm always looking for ways to grow, connect, and make a positive impact.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card clickable" onclick="window.location.href='project1.html'">
+          <h3>Medical Research Project</h3>
+          <p>An innovative research project exploring the intersection of technology and healthcare.</p>
+        </div>
+        <div class="project-card clickable" onclick="window.location.href='project2.html'">
+          <h3>Music & Technology App</h3>
+          <p>A creative application combining my passion for violin with modern technology.</p>
+        </div>
+        <div class="project-card clickable" onclick="window.location.href='project3.html'">
+          <h3>Community Impact Initiative</h3>
+          <p>A project focused on making a positive difference in the local community.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">Graphic Design</div>
+        <div class="skill">Communication</div>
+        <div class="skill">Creative Thinking</div>
+        <div class="skill">Problem Solving</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="container">
+      <h2>Thanks for visiting!</h2>
+    </div>
+  </section>
+
   <script src="script.js"></script>
 </body>
-
 </html>
